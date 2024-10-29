@@ -1,0 +1,54 @@
+th:hover {
+    background-color: pink; color: black;
+}
+    body {
+      background: url(RRQ.jpeg) no-repeat;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+      margin: 50px;
+      padding: 0;
+    }
+    
+    .container {
+      margin: auto;
+      width: 80%;
+      margin-top: 4rem;
+      background-color: navy;
+      border: 2px dashed white;
+      border-radius: 20px;
+      padding: 20px;
+      opacity: 0.8;
+    }
+    .container h2 {
+        text-align: center;
+        color: white;
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+      }
+  
+      table {
+        width: 100%;
+        -left: 100px;
+         margin: auto;
+        border-collapse: collapse;
+      }
+  
+      th, td {
+        padding: 10px;
+        text-align: center;
+        color: white;
+        border: 2px dashed white;
+      }
+  
+      th {
+        background-color: navy;
+      }
+  
+      /* Responsiveness */
+      @media (max-width: 768px) {
+        .container {
+          width: 100%;
+          padding: 10px;
+          font-size: 0.8rem;
+        }
+      }
